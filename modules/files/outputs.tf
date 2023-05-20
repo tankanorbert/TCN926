@@ -6,13 +6,6 @@ output "custom" {
   value = "something"
 }
 
-output "neptun_code" {
-  description = "neptun code"
-  value       = "tcn926"
+output "output_value" {
+  value = "some value"
 }
-
-output "bucket_name" {
-  description = "Name of the file bucket"
-  value       = var.file_bucket_name
-}
-

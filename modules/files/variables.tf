@@ -13,7 +13,3 @@ variable "name" {
   description = "The name of the files"
   type        = string
 }
-
-variable "file_bucket_name" {
-  description = "Name of the file bucket"
-}
